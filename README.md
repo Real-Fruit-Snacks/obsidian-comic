@@ -26,8 +26,6 @@ Tips and hints are rounded bubbles with a coloured Bangers title. Notes and info
   <img src="docs/assets/hero-night.png" alt="The same note in night mode" width="100%">
 </p>
 <p align="center">
-  <img src="docs/assets/explorer-day.png" alt="Comic with the file explorer open: red Bangers folder names, starred files, POW! at the bottom" width="100%">
-</p>
 
 ## Install
 
