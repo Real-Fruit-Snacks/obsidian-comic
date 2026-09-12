@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic — your notes, printed in colour. An Obsidian theme.</title>
+<meta name="description" content="Comic is an Obsidian theme: halftone paper, hard black panels, Bangers headlines, and callouts that are speech bubbles. Day and night modes, fonts embedded.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Comic for Obsidian">
+<meta property="og:description" content="Your notes, printed in colour. Callouts are speech bubbles.">
+<meta property="og:image" content="https://real-fruit-snacks.github.io/obsidian-comic/assets/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rfs.css">
+<style>:root{ --accent:#FFD23F; --accent-2:#E63946; }</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header">
+    <a class="owner" href="https://github.com/Real-Fruit-Snacks"><i></i>Real-Fruit-Snacks</a>
+    <span class="crumb">/</span><span class="proj">Comic</span>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="#palette">Palette</a>
+      <a class="gh" href="https://github.com/Real-Fruit-Snacks/obsidian-comic">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="pill"><b>Theme</b> day and night · fonts included</div>
+    <h1>Your notes, printed in colour.</h1>
+    <p class="lede">Halftone paper, a hard black panel around every note, Bangers headlines with a yellow drop — and one trick: callouts are speech bubbles.</p>
+    <div class="actions">
+      <a class="btn primary" href="#install">Install Comic</a>
+      <a class="btn secondary" href="https://github.com/Real-Fruit-Snacks/obsidian-comic">View source</a>
+    </div>
+    <div class="frame"><img src="assets/screenshot.png" alt="Comic theme poster: a comic panel with the wordmark, and the theme in day and night mode"></div>
+  </div>
+
+  <section id="features">
+    <h2>What changes</h2>
+    <p class="sub">Obsidian's own components, inked and lettered.</p>
+    <div class="grid">
+      <div class="f"><div class="ic">◯</div><h3>Speech bubbles</h3><p>Tips are rounded bubbles with a coloured Bangers title. Notes are square yellow caption boxes. Warnings are burst boxes with a <b>WHAM!</b> in the corner. Quotes go rounder and italic; questions collapse.</p></div>
+      <div class="f"><div class="ic">Aa</div><h3>Lettering</h3><p>Bangers headlines — yellow drop on H1, red H2 with a black drop — and Comic Neue body. Both embedded, nothing to install.</p></div>
+      <div class="f"><div class="ic">▣</div><h3>The panel</h3><p>Halftone-dot paper and a 3px black frame with a hard offset shadow around every note. The file explorer has red Bangers folders, starred files and a POW! at the bottom.</p></div>
+      <div class="f"><div class="ic">#</div><h3>Stickers and boxes</h3><p>Tags are pink stickers, tilted in Reading view. Highlights are yellow with a shadow. Tables get Bangers headers; checkboxes are boxed and fill blue.</p></div>
+      <div class="f"><div class="ic">▬</div><h3>Narration boxes</h3><p>Code blocks are black boxes with yellow text, a red offset shadow and a pink language flair — in Reading view and in the editor.</p></div>
+      <div class="f"><div class="ic">◐</div><h3>Day and night</h3><p>Day is printed on newsprint. Night is the same page printed on black, with white ink lines.</p></div>
+    </div>
+  </section>
+
+  <section id="screenshots">
+    <h2>Issue 12</h2>
+    <p class="sub">Readable line length on — the panel and its shadow sit in the halftone around a centred page.</p>
+    <div class="frame" style="margin-top:0"><img src="assets/hero-day.png" alt="Issue 12 in Comic, day mode"></div>
+    <div class="frame" style="margin-top:24px"><img src="assets/hero-night.png" alt="The same note in night mode"></div>
+  </section>
+
+  <section id="install">
+    <div class="two">
+      <div>
+        <h2>Install</h2>
+        <p class="sub">From the community list, or two files by hand.</p>
+        <ol class="steps">
+          <li><b>Community list</b> Settings → Appearance → Themes → Manage → search "Comic".</li>
+          <li><b>Manual</b> Download <code>theme.css</code> and <code>manifest.json</code> from the latest release into <code>.obsidian/themes/Comic/</code>, then pick it under Appearance.</li>
+        </ol>
+        <div class="callout"><b>Try it.</b> Write <code>&gt; [!warning] Villain alert</code> and look for the WHAM!.</div>
+      </div>
+<pre><code>.obsidian/
+  themes/
+    Comic/
+      theme.css
+      manifest.json</code></pre>
+    </div>
+  </section>
+
+  <section id="palette">
+    <h2>Palette</h2>
+    <p class="sub">Paper, ink, and four printing colours.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Role</th><th>Day</th><th>Night</th></tr>
+        <tr><td>Paper</td><td><code>#FFF8E7</code></td><td><code>#141414</code></td></tr>
+        <tr><td>Panel</td><td><code>#FFFFFF</code></td><td><code>#1F1F1F</code></td></tr>
+        <tr><td>Ink</td><td><code>#111111</code></td><td><code>#F5F5F5</code></td></tr>
+        <tr><td>Yellow</td><td><code>#FFD23F</code></td><td><code>#FFD23F</code></td></tr>
+        <tr><td>Red</td><td><code>#E63946</code></td><td><code>#FF5A66</code></td></tr>
+        <tr><td>Blue</td><td><code>#2A9DF4</code></td><td><code>#4FB0FF</code></td></tr>
+        <tr><td>Cyan</td><td><code>#8EE3EF</code></td><td><code>#3FB8C9</code></td></tr>
+        <tr><td>Pink</td><td><code>#FF7AB6</code></td><td><code>#FF7AB6</code></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>More from Real-Fruit-Snacks</h2>
+    <p class="sub">Same site, a different glow per project.</p>
+    <div class="proj">
+      <a href="https://real-fruit-snacks.github.io/obsidian-Thoughtbin/"><i style="background:#7C9CFF"></i><b>Thoughtbin</b><span>Obsidian plugin — a private timeline for quick thoughts</span></a>
+      <a href="https://real-fruit-snacks.github.io/obsidian-glow/"><i style="background:#B48CFF"></i><b>Glow</b><span>Obsidian theme — calm dark with a little light</span></a>
+      <a href="https://real-fruit-snacks.github.io/obsidian-outrun/"><i style="background:#FF3FA4"></i><b>Outrun</b><span>Obsidian theme — 1986 never ended</span></a>
+      <a href="https://real-fruit-snacks.github.io/obsidian-dossier/"><i style="background:#E0554A"></i><b>Dossier</b><span>Obsidian theme — every note is a case file</span></a>
+      <a href="#" aria-current="page"><i style="background:#FFD23F"></i><b>Comic</b><span>Obsidian theme — your notes, printed in colour</span></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>Comic by <a href="https://github.com/Real-Fruit-Snacks">Real-Fruit-Snacks</a> · MIT</span>
+    <span>Fonts under the SIL Open Font License</span>
+  </footer>
+</div>
+</body>
+</html>
