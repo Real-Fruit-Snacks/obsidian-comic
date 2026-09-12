@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2026-09-12
+
+### Fixed
+- Removed the `:has()` selector flagged by the theme linter; unresolved links in the editor now style the underline span directly (same dashed grey result).
+
 ## [1.0.0] - 2026-09-12
 
 ### Added
@@ -9,4 +14,5 @@
 - Comic chrome: cyan tab strip with boxed tabs, yellow ribbon with round badge buttons, yellow status bar, red Bangers folder names and a POW! in the file explorer, offset-shadow menus, modals and tooltips.
 - Day mode (printed on newsprint) and night mode (printed on black, white ink lines).
 
+[1.0.1]: https://github.com/Real-Fruit-Snacks/obsidian-comic/releases/tag/1.0.1
 [1.0.0]: https://github.com/Real-Fruit-Snacks/obsidian-comic/releases/tag/1.0.0

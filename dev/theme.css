@@ -214,10 +214,9 @@ body {
 .markdown-rendered em, .cm-s-obsidian .cm-em { font-style: italic; color: var(--co-blue); }
 .markdown-rendered mark, .cm-s-obsidian .cm-highlight, .cm-s-obsidian span.cm-highlight, .markdown-source-view.mod-cm6 .cm-editor .cm-highlight { background: var(--co-yellow); color: #111111; padding: 0 4px; margin: 0 4px 0 1px; font-weight: 700; box-shadow: 2px 2px 0 var(--co-ink); }
 .markdown-rendered del, .cm-s-obsidian .cm-strikethrough { color: var(--co-muted); }
-.markdown-rendered a, .cm-s-obsidian .cm-hmd-internal-link, .cm-s-obsidian .cm-link .cm-underline { text-decoration: none; border-bottom: 3px solid var(--co-blue); font-weight: 700; }
-.markdown-rendered a:hover, .cm-s-obsidian .cm-hmd-internal-link:hover { border-bottom-color: var(--co-red); }
-.markdown-rendered a.is-unresolved, .cm-s-obsidian .cm-hmd-internal-link.is-unresolved, .cm-s-obsidian .cm-hmd-internal-link:has(.is-unresolved) { color: var(--co-muted); border-bottom: 3px dashed var(--co-muted); }
-.cm-s-obsidian .cm-hmd-internal-link .cm-underline.is-unresolved { color: var(--co-muted); }
+.markdown-rendered a, .cm-s-obsidian .cm-hmd-internal-link .cm-underline, .cm-s-obsidian .cm-link .cm-underline { text-decoration: none; border-bottom: 3px solid var(--co-blue); font-weight: 700; }
+.markdown-rendered a:hover, .cm-s-obsidian .cm-hmd-internal-link:hover .cm-underline { border-bottom-color: var(--co-red); }
+.markdown-rendered a.is-unresolved, .cm-s-obsidian .cm-hmd-internal-link .cm-underline.is-unresolved { color: var(--co-muted); border-bottom: 3px dashed var(--co-muted); }
 .markdown-rendered a.tag, .cm-s-obsidian .cm-hashtag {
   font-family: var(--co-display); font-size: .82em; letter-spacing: .06em; background: var(--co-pink); color: #111111;
   border: 2px solid var(--co-ink); border-radius: 0; text-decoration: none; padding: 0 8px; box-shadow: 2px 2px 0 var(--co-ink); vertical-align: 1px;
