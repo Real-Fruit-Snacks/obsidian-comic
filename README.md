@@ -25,8 +25,6 @@ Tips and hints are rounded bubbles with a coloured Bangers title. Notes and info
 <p align="center">
   <img src="docs/assets/hero-night.png" alt="The same note in night mode" width="100%">
 </p>
-<p align="center">
-
 ## Install
 
 **From the community list** — Settings → Appearance → Themes → Manage → search "Comic".
