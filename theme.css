@@ -167,10 +167,10 @@ body {
 .nav-folder-collapse-indicator, .tree-item-icon.collapse-icon { color: var(--co-ink-2); }
 
 /* POW! at the foot of the explorer */
-.nav-files-container { position: relative; padding-bottom: 90px; }
+
 .nav-files-container::after {
-  content: "POW!"; position: absolute; left: 50%; bottom: 20px; transform: translateX(-50%) rotate(-8deg); pointer-events: none;
-  font-family: var(--co-display); font-size: 44px; letter-spacing: .04em; color: var(--co-yellow);
+  content: "POW!"; display: block; width: max-content; margin: 16px auto 22px; transform: rotate(-8deg); pointer-events: none; user-select: none;
+  font-family: var(--co-display); font-size: 40px; line-height: 1; letter-spacing: .04em; color: var(--co-yellow);
   text-shadow: var(--co-outline), 4px 4px 0 var(--co-red);
 }
 .search-result-file-title { font-family: var(--co-display); font-size: 15px; letter-spacing: .06em; color: var(--co-ink); }
